@@ -65,7 +65,7 @@ The **Factory Method** selects the right algorithm at runtime; the **observer-st
 
 ---
 
-## ⚡ Concurrency model
+## Concurrency model
 
 * **Fork/Join work-stealing** for Divide-and-Conquer and bounded brute-force ranges; dynamic partitions balance uneven subproblems naturally.
 * **Thresholds** switch to sequential code on tiny inputs to avoid task overhead.
